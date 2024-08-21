@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+header {
+  background: rgb(133, 145, 152);
+  background: linear-gradient(
+    6deg,
+    rgba(133, 145, 152, 1) 23%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+#btnconn {
+  border: 1px solid rgb(16, 148, 16);
+  background-color: rgb(16, 148, 16);
+  border-radius: 25px;
+  padding: 10px;
+}
+nav ul li {
+  list-style: none;
+  padding: 30px;
+}
+#btnconn:hover{
+    color: black;
+}
+nav li a:hover{
+    color: rgb(4, 159, 4);
+}
+
+.page1 img {
+  position: relative;
+  width: 100%;
+}
+#titleback {
+  position: absolute;
+  bottom: 817px;
+  left: 400px;
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+}
+
+
+#titleback1 {
+  position: absolute;
+  top: 1180px;
+  left: 780px;
+
+  color: white;
+  font-size: 40px;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  background: rgb(133,145,152);
+  background: linear-gradient(0deg, rgba(133,145,152,1) 10%, rgba(255,255,255,1) 64%);
+}
+.page2 img {
+  width: 120px;
+  height: 90px;
+  padding: 15px;
+}
+#porshe {
+  width: 200px;
+}
+#rover {
+  width: 130px;
+  height: 80px;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 79px;
+}
+.resume p {
+  width: 30%;
+  font-size: 36px;
+  padding: 10px;
+}
+.resume img {
+  /* width: 800px; */
+  border-radius: 40px;
+  width: 40%;
+}
+.section2 h2{
+    margin-top: 99px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 39px;
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 550px;
+    height: 350px;
+    border-radius: 40px;
+}
+
+.card1{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.card1 img{
+  width: 550px;
+  height: 350px;
+  border-radius: 40px;
+}
+
+.lien{
+    margin-left: 690px;
+    margin-top: 80px;
+}
+.lien a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 220px;
+    margin-top: 90px;
+}
+
+#fin{
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+.nos{
+    font-size: 30px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent; /*  hta clor shiha */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 100% center;
+    }
+  }
+  
+
+  .footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+
+
+      }
+      
+  .footer h3{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 29px;
+    text-align: center;
+  }
+  .footer .bg{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+  }
+.vertical-ligne{
+    width: 3px;            /* Épaisseur de la ligne */
+    height: 400px;         /* Hauteur de la ligne */
+    background-color: black; /* Couleur de la ligne */
+    border: none;          /* Retirer la bordure par défaut */
+    transform: rotate(900deg); /* Faire pivoter de 90 degrés */
+    margin: 0;
+}
+
+/* .paiment{
+    display: flex;
+    flex-direction: column;
+} */
+.jaja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#condition{
+  margin-top: 17px;
+}
+#condition a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu h3 a{
+    text-decoration: none;
+    color: black;  
+    margin: 15px;
+}
+  
+
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 800px;
+}
+
+.navbar-nav li img {
+  border-radius: 100%;
+  width: 80px;
+  height: 79px;
+  text-align: center;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  margin-right: 38px;
+  text-align: center;
+  color: white;
+  padding: 14px;
+}
+
+.navbar-nav .nav-item {
+  list-style-type: none;
+}
+
+
